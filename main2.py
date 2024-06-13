@@ -48,6 +48,6 @@ EXECUTE FUNCTION trigger_history();
 """)
 conn.commit()
 
-# Закрытие курсора и соединения
+# Закрытие курсора и соединения конец
 cur.close()
 conn.close()
